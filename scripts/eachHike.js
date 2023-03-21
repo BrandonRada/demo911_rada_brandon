@@ -1,5 +1,6 @@
 function displayHikeInfo() {
     let params = new URL( window.location.href ); //get URL of search bar
+    console.log(params);
     let ID = params.searchParams.get( "docID" ); //get value for key "id"
     console.log( ID );
 
